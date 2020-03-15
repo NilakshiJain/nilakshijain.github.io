@@ -862,6 +862,34 @@ a:hover {
   line-height: 1.6;
 }
 
+.resume-block{
+  text-align: center;
+}
+.resume-button {
+  padding: 10px 35px;
+  position: relative;
+  text-align: center;
+  background: #fff;
+  border: 2px solid #fff;
+  color: #000;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.resume-button:hover {
+  transform: scale(1.1);
+  background: transparent;
+  color: #fff;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
 /*======================================
 //--//-->   BLOG
 ======================================*/
