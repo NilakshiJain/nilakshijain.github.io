@@ -678,10 +678,11 @@ a:hover {
 
 .about-mf .about-img {
   margin-bottom: 2rem;
+  
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+
 }
 
 .skill-mf span {
@@ -698,6 +699,10 @@ a:hover {
 .skill-mf .progress .progress-bar {
   height: .7rem;
   background-color: #0078ff;
+}
+
+.aboutme-margintop{
+  margin-top: ;
 }
 
 /*======================================
