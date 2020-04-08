@@ -105,7 +105,7 @@ a:hover {
 
 .paralax-mf {
   position: relative;
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .display-table {
@@ -921,7 +921,8 @@ a:hover {
   text-align: center;
 }
 .resume-button {
-  padding: 10px 35px;
+  padding: 10px;
+  margin: auto;
   position: relative;
   text-align: center;
   background: #fff;
@@ -932,6 +933,7 @@ a:hover {
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
+  font-weight: 600;
 }
 
 .resume-button:hover {
@@ -1262,7 +1264,7 @@ footer .credits a {
 
 @media (min-width: 577px) {
   .counter-box {
-    margin-bottom: 1.8rem;
+    /* margin-bottom: 1.8rem; */
   }
 }
 
