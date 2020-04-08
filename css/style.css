@@ -685,6 +685,10 @@ a:hover {
 
 }
 
+.lead{
+  text-align: justify;
+}
+
 .skill-mf span {
   color: #4e4e4e;
 }
@@ -701,8 +705,10 @@ a:hover {
   background-color: #0078ff;
 }
 
-.aboutme-margintop{
-  margin-top: ;
+.area-of-expertise{
+  padding: 30px 0;
+  background: #f7f7f7;
+  
 }
 
 /*======================================
