@@ -744,18 +744,19 @@ a:hover {
   overflow: hidden;
   margin: auto;
   width: fit-content;
+  text-align: center;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
-  float: left;
+  /* float: left; */
   border: solid #0078ff;
   color: #0078ff;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  margin: 0 10px;
+  margin:10px;
   transition: 0.3s;
   font-size: 17px;
   font-weight: 500;
