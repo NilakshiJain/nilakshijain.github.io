@@ -518,6 +518,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
+            <div class="box-shadow-full">
+        <div class="row">
+          <div class="col-sm-12">
             <div class="title-box text-center">
               <h3 class="title-a">
                 Achievements
@@ -530,7 +533,6 @@
           </div>
         </div>
 
-        <div class="text-center"></div>
         <div class="tab">
           <button class="tablinks" onclick="openCity(event, 'Papers')">Publications</button>
           <button class="tablinks" onclick="openCity(event, 'Certifications')">Certifications</button>
@@ -706,8 +708,77 @@
         </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
     </section>
     <!--/ Section Services End /-->
+
+   <section id="interactions">
+     <div class="container mt-5">
+      
+       <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Interactions
+            </h3>
+            <p class="subtitle-a">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      <div class="vertical-tab">
+        <button class="tablinks1" onclick="openCity1(event, 'Book Reviewed')" id="defaultOpen">Book Reviewed</button>
+        <button class="tablinks1" onclick="openCity1(event, 'Professional Membership')">Professional Membership</button>
+        <button class="tablinks1" onclick="openCity1(event, 'Other Memberships')">Other Memberships</button>
+        <button class="tablinks1" onclick="openCity1(event, 'Papers Reviewed')">Papers Reviewed</button>
+        <button class="tablinks1" onclick="openCity1(event, 'Curriculum Development')">Curriculum Development</button>
+        <button class="tablinks1" onclick="openCity1(event, 'Orientation Programs')">Orientation Programs</button>
+        <button class="tablinks1" onclick="openCity1(event, 'Judge')">Judge</button>
+        <button class="tablinks1" onclick="openCity1(event, 'International IV')">International IV</button>
+
+      </div>
+      
+      <div id="Book Reviewed" class="vertical-tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+      
+      <div id="Professional Membership" class="vertical-tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p> 
+      </div>
+      
+      <div id="Other Memberships" class="vertical-tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+      <div id="Papers Reviewed" class="vertical-tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+      <div id="Curriculum Development" class="vertical-tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+      <div id="Orientation Programs" class="vertical-tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+      <div id="Judge" class="vertical-tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+      <div id="International IV" class="vertical-tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+     </div>
+    </div>
+
+   </section>
   <!--/ Section Contact-Footer Star /-->
   <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/getintouch.png)">
     <div class="overlay-mf"></div>
@@ -852,6 +923,23 @@
       evt.currentTarget.className += " active";
     }
     </script>
-
+    <script>
+      function openCity1(evt1, cityName1) {
+        var i, tabcontent1, tablinks1;
+        tabcontent1 = document.getElementsByClassName("vertical-tabcontent");
+        for (i = 0; i < tabcontent1.length; i++) {
+          tabcontent1[i].style.display = "none";
+        }
+        tablinks1 = document.getElementsByClassName("vertical-tablinks");
+        for (i = 0; i < tablinks1.length; i++) {
+          tablinks1[i].className = tablinks1[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName1).style.display = "block";
+        evt1.currentTarget.className += " active";
+      }
+      
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+      </script>
 </body>
 </html>
