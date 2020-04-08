@@ -52,7 +52,7 @@ a:hover {
 
 .box-shadow,
 .paralax-mf,
-.service-box,
+.s-box,
 .work-box,
 .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
@@ -705,7 +705,7 @@ a:hover {
 ======================================*/
 
 .service-box {
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -737,6 +737,60 @@ a:hover {
 
 .service-box .s-description {
   color: #4e4e4e;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  margin: auto;
+  width: fit-content;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: solid #0078ff;
+  color: #0078ff;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin: 0 10px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-weight: 500;
+  width: 180px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #0078ff;
+  color: #fff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #0078ff;
+  color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 /*======================================
@@ -1326,4 +1380,5 @@ footer .credits a {
 
 .justify{
   text-align: justify;
+  margin: 20px 0;
 }
