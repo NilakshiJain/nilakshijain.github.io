@@ -1370,8 +1370,9 @@ footer .credits a {
 .scroll {
   max-height: 400px;
   overflow-y: auto;
-
 }
+
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -1442,7 +1443,7 @@ footer .credits a {
 .vertical-tabcontent {
   float: left;
   padding: 0px 12px;
-  border: 1px solid #0078ff;
+  /* border: 1px solid #0078ff; */
   width: 70%;
   border-left: none;
   background: #fff;
