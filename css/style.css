@@ -686,7 +686,7 @@ a:hover {
 }
 
 .lead{
-  text-align: jus;
+  text-align: justify;
 }
 
 .skill-mf span {
@@ -771,7 +771,7 @@ a:hover {
   transition: 0.3s;
   font-size: 17px;
   font-weight: 500;
-  width: 150px;
+  width: 140px;
 }
 
 /* Change background color of buttons on hover */
@@ -857,6 +857,7 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  height: 11rem;
 }
 
 .work-content .w-more {
@@ -1448,3 +1449,5 @@ footer .credits a {
   border-left: none;
   background: #fff;
 }
+
+
