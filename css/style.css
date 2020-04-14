@@ -966,6 +966,7 @@ a:hover {
 ======================================*/
 
 .card-blog .card-body {
+  height: 200px;
   position: relative;
 }
 
