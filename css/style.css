@@ -935,6 +935,7 @@ a:hover {
   text-align: center;
 }
 .resume-button {
+  width: auto;
   padding: 10px;
   margin: auto;
   position: relative;
