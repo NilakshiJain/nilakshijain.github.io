@@ -684,11 +684,13 @@ a:hover {
 }
 
 .about-mf .about-img img {
-
+  border: 1px solid #000;
+  border-radius: 0 !important;
 }
 
-.lead{
-  text-align: justify;
+.about-mf .about-text{
+  margin: 0;
+  font-size: large;
 }
 
 .skill-mf span {
@@ -708,7 +710,7 @@ a:hover {
 }
 
 .area-of-expertise{
-  padding: 30px 0;
+  padding: 15px 0;
   background: #f7f7f7;
   
 }
