@@ -1494,3 +1494,19 @@ footer .credits a {
 
 
 @-webkit-keyframes pulsate{0%{-webkit-transform:scale(.1,.1);transform:scale(.1,.1);opacity:0}50%{opacity:1}100%{-webkit-transform:scale(1.2,1.2);transform:scale(1.2,1.2);opacity:0}}@keyframes pulsate{0%{-webkit-transform:scale(.1,.1);transform:scale(.1,.1);opacity:0}50%{opacity:1}100%{-webkit-transform:scale(1.2,1.2);transform:scale(1.2,1.2);opacity:0}}
+
+
+#instructor{
+background: #fff;
+padding-bottom: 4rem;
+}
+
+.trainer-badge{
+  width: 100%;
+  transition: ease-in 0.3s;
+}
+
+.trainer-badge:hover{
+  transform: scale(1.3);
+  transition: ease-out 0.3s;
+}
